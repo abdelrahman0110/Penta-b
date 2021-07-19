@@ -1,0 +1,11 @@
+# Requirements
+# You are given the initial starting point (x,y) of a rover and the direction (N,S,E,W) it is facing.
+# The rover receives a character array of commands as a string, for example "fffrfbrflb".
+# Implement commands that move the rover forward/backward (f,b).
+# Implement commands that rotate the rover left/right (l,r).
+# some coordinates have a obstacle, must stop before. 
+# Examples
+# Given a rover that starts at 0, 0 facing North, the command lffflbbb should result in a position of -3,3 facing South. Sending the command fff afterwards should end with the rover at -3,0 facing South.
+# Given a rover that starts at 3, 4 facing East, the command fffrfbrflb should result in a position of 5, 5, facing South.
+# Given a rover that starts at -5, 22 facing South, the command lrffbb should result in a position of -5, 22 facing South.
+
